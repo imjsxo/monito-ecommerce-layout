@@ -41,6 +41,7 @@ body {
   --color--ccd1d2: #ccd1d2;
   --color--00171F: #00171F;
   --color--00a7e7: #00a7e7;
+  --color--99A2A5: #99A2A5;
 
 }
 
@@ -100,6 +101,9 @@ body {
   height: 695px;
   background: url(../public/images/hero-banner.png);
   margin-top: -96px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .banner-content {
@@ -107,21 +111,21 @@ body {
 }
 
 .banner-content h1 {
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 800;
   line-height: 68px;
   color: var(--color--002A48);
 }
 
 .banner-content h2 {
-  font-size: 46px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 60px;
   color: var(--color--002A48);
 }
 
 .banner-content p {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   line-height: 24px;
   color: var(--color--002A48);
@@ -500,3 +504,47 @@ footer .copyright a {
 }
 
 /* Pet List Card */
+
+/* Product Page */
+
+.product-page-wrapper .pet-detail {
+  padding: 12px;
+  height: 862px;
+  border: 1px solid #EBEEEF;
+  border-radius: 20px;
+}
+
+.product-page-wrapper img.thumbnail {
+  height: 94px;
+  border-radius: 6px;
+}
+
+.pet-image-wrapper {
+  margin-right: 34px;
+}
+
+.pet-image-wrapper img.logo-discount {
+  margin-top: 127px;
+  margin-bottom: 17px;
+}
+
+.pet-image-wrapper .social-media p {
+  font-size: 14px;
+  margin-right: 21px;
+}
+
+.pet-image-wrapper .social-media p svg {
+  margin-right: 8px;
+}
+
+.social-media .logo-social-media svg {
+  width: 18.77px;
+  height: 18.77px;
+  margin-right: 18px;
+  color: var(--color--99A2A5);
+}
+
+.button-contact button {
+  height: 44px;
+}
+/* Product Page End*/
