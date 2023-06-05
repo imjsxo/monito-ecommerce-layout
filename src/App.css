@@ -524,7 +524,7 @@ footer .copyright a {
 }
 
 .pet-image-wrapper img.logo-discount {
-  margin-top: 127px;
+  margin-top: 25px;
   margin-bottom: 17px;
 }
 
@@ -547,4 +547,15 @@ footer .copyright a {
 .button-contact button {
   height: 44px;
 }
+
 /* Product Page End*/
+
+.button-sort button {
+  margin-right: 4px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  padding: 5px 12px;
+  width: auto;
+  height: auto;
+
+}

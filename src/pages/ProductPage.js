@@ -35,28 +35,7 @@ const ProductPage = () => {
                             <div className="col-6">
                                 <div className="pet-image-wrapper">
                                     <div>
-                                        <Carousel
-                                            data={dataImg}
-                                            width="850px"
-                                            height="500px"
-                                            radius="10px"
-                                            slideNumber={true}
-                                            captionPosition="bottom"
-                                            automatic={false}
-                                            dots={true}
-                                            pauseIconColor="white"
-                                            pauseIconSize="40px"
-                                            slideBackgroundColor="darkgrey"
-                                            slideImageFit="cover"
-                                            thumbnails={true}
-                                            thumbnailWidth="94px"
-                                            thumbnailHeight="94px"
-                                            style={{
-                                                textAlign: "center",
-                                                maxWidth: "850px",
-                                                maxHeight: "500px",
-                                            }}
-                                        />
+                                        <img src="images/shiba-1.png" alt="" />
                                     </div>
                                     <div>
                                         <img src="images/logo-112.png" className='logo-discount img-fluid' alt="logo" />
