@@ -639,3 +639,113 @@ footer .copyright a {
 }
 
 /* Product Page End*/
+
+/* Product List Page */
+
+.product-list-wrapper {
+  background-color: #FDFDFD;
+}
+
+.product-list-banner {
+  height: 378px;
+  background: url(../public/images/plp-banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 35px;
+}
+
+.product-list-banner .col-5 {
+  margin-right: 70px;
+}
+
+.product-list-banner h1 {
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 40px;
+}
+
+.product-list-banner h3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 54px;
+}
+
+.product-list-banner p {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: right;
+  margin-left: 75px;
+}
+
+.product-list-banner button {
+  background: transparent;
+  border: 1px solid white;
+}
+
+.product-list-banner button svg {
+  margin-left: 8px;
+  width: 24px;
+  height: 24px;
+}
+
+.product-list-banner button:hover {
+  background-color: white;
+  color: black;
+}
+
+.product-list-main {
+  padding: 0;
+}
+
+.product-list-main .side-bar {
+  width: 25%;
+  padding: 0;
+  margin-right: 20px;
+}
+
+.product-list-main .side-bar .filter-bar {
+  margin-top: 14px;
+}
+
+.product-list-main .side-bar .title h3,
+.product-list-main .main-bar .title h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  font-style: normal;
+}
+
+.product-list-main .side-bar .category-gender {
+  margin-bottom: 30px;
+}
+
+.product-list-main .side-bar .filter-bar p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.product-list-main .side-bar .filter-bar label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.product-list-main .main-bar {
+  width: 100%;
+}
+
+.product-list-main .main-bar .input-group {
+  width: 250px;
+}
+.product-list-main .main-bar .input-group input {
+  border-radius: 40px;
+}
+
+
+/* Product List Page End */

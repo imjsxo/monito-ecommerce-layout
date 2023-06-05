@@ -187,9 +187,9 @@ const ProductPage = () => {
                                 <h3>See more puppies</h3>
                             </div>
                         </div>
-                        <div className='pet-card-wrapper d-flex flex-wrap justify-content-center'>
+                        {/* <div className='pet-card-wrapper d-flex flex-wrap justify-content-center'>
                             <PetListCard />
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
