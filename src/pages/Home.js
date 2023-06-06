@@ -147,8 +147,7 @@ class Home extends React.Component {
       image: "images/blog-3.png",
       title: "Why Dogs Bite and Destroy Furniture and How to Prevent It Effectively",
       content: "Dog bites are common during development. However, no one wants to see their furniture or important items being bitten by a dog."
-    }
-    ]
+    }]
     return (
       <>
         <section className="home-wrapper-1">
